@@ -11,7 +11,7 @@ var interval = null;
 timeSelect.addEventListener("change", function(e) {
   startTime = e.target.value;
   if(interval == null) {
-    stopWatch.textContent = startTime;
+    stopWatch.textContent = parseTime(startTime);
   }
 });
 
@@ -22,21 +22,21 @@ startButton.addEventListener("click", function() {
     interval = setInterval(function(){
       counter--;
       if (counter <= 0) {
-        stopWatch.textContent = "Time's Up!";
+        stopWatch.textContent = "Time's up!";
         clearInterval(interval)
         interval=null;
         circle.style.animation = ""
       } else {
-        stopWatch.textContent = counter;
+        stopWatch.textContent = parseTime(counter);
       } 
     }, 1000)
   } 
 });
 
-// function parseTime(counter) {
-//   var displayCounter = counter.toString().padStart(2, '0')
-//   return `00:${displayCounter}`
-// }
+function parseTime(counter) {
+  var displayCounter = counter.toString().padStart(2, '0')
+  return `00:${displayCounter}`
+}
 
 
 resetButton.addEventListener("click", function() {
@@ -44,5 +44,5 @@ resetButton.addEventListener("click", function() {
   clearInterval(interval)
   interval=null;
   circle.style.animation = "";
-  stopWatch.textContent = counter;
+  stopWatch.textContent = parseTime(counter);
 });
