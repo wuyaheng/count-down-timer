@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
     <title>Countdown Timer</title>
 
@@ -35,8 +34,9 @@
   </head>
   <body>
 
-
-    <div class="card p-2 m-4 mx-auto" style="width: 30%;">
+<div class="row mt-4">
+  <div class="col-md-4 mx-auto">
+    <div class="card p-2 m-2">
     <select id="timeSelect" class="form-select" aria-label="Default select example">
       <option selected>Select Time</option>
       <option value="5" selected>5 Seconds</option>
@@ -49,31 +49,28 @@
     <!--   <button type="button" class="btn btn-danger" id="stop">Stop</button> -->
       <button type="button" class="btn btn-warning" id="reset">Reset</button>
       </div>
-
   </div>
-
+</div>
+</div>
     
-<div class="card p-2 m-4 mx-auto" style="width: 30%;">
 
+<div class="row">
+<div class="col-md-4 mx-auto">
+<div class="card p-2 m-2">
   <div class="card-body text-center"> 
     <h1 id="stopWatch">
       00:05
     </h1>
   </div>
-  
-
-
   <div id="countdown">
     <div id="countdown-number"></div>
     <svg>
       <circle id="circle" r="18" cx="20" cy="20"></circle>
     </svg>
   </div>
-
-
-
 </div>
-    
+</div>
+</div>  
 
 
     
