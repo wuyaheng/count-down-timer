@@ -18,14 +18,12 @@ timeSelect.addEventListener("change", function(e) {
 startButton.addEventListener("click", function() {
   if(interval==null) {
     counter = startTime;
-    circle.style.animation = `countdown ${startTime}s linear forwards`
     interval = setInterval(function(){
       counter--;
       if (counter <= 0) {
         stopWatch.textContent = "Time's up!";
         clearInterval(interval)
         interval=null;
-        circle.style.animation = ""
       } else {
         stopWatch.textContent = parseTime(counter);
       } 
@@ -43,6 +41,5 @@ resetButton.addEventListener("click", function() {
   counter = startTime;
   clearInterval(interval)
   interval=null;
-  circle.style.animation = "";
   stopWatch.textContent = parseTime(counter);
 });
