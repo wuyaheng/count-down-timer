@@ -15,8 +15,7 @@ html {
   }
 
 .btn-group {
-  background-color: #000 !important;
-  opacity: 0.7 !important;
+  background: rgba(8, 212, 69, 0.1) !important;
 }
 button, select {
     box-shadow: none !important;

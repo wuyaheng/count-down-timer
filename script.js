@@ -21,7 +21,7 @@ startButton.addEventListener("click", function() {
     interval = setInterval(function(){
       counter--;
       if (counter <= 0) {
-        stopWatch.textContent = "Time's up!";
+        stopWatch.textContent = "Time's Up!";
         clearInterval(interval)
         interval=null;
       } else {
