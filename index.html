@@ -24,6 +24,8 @@
       content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
     />
     <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <!-- Import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -34,36 +36,36 @@
   </head>
   <body>
 
-<div class="row mt-4">
-  <div class="col-md-4 mx-auto">
-    <div class="card p-2 m-2">
-    <select id="timeSelect" class="form-select" aria-label="Default select example">
+  <div class="col-md-4 mx-auto text-center">
+
+
+    <select id="timeSelect" class="form-select mb-2" aria-label="Default select example">
       <option selected>Select Time</option>
       <option value="5" selected>5 Seconds</option>
       <option value="10">10 Seconds</option>
       <option value="15">15 Seconds</option>
     </select>
 
-    <div class="btn-group mt-2" role="group" aria-label="Basic mixed styles example">
-      <button type="button" class="btn btn-success" id="start">Start</button>
-      <button type="button" class="btn btn-warning" id="reset">Reset</button>
-      </div>
-  </div>
+
 </div>
-</div>
+
     
 
-<div class="row">
-<div class="col-md-4 mx-auto">
-<div class="card p-2 m-2">
+<div class="col-md-4 mx-auto text-center">
+
   <div class="card-body text-center"> 
     <h1 id="stopWatch">
       00:05
     </h1>
   </div>
+
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-outline-success" id="start"><i class="fas fa-play"></i>  Start</button>
+    <button type="button" class="btn btn-outline-warning" id="reset"><i class="fas fa-sync-alt"></i> Reset</button> 
+  </div>
+
 </div>
-</div>
-</div>  
+
 
 
     
