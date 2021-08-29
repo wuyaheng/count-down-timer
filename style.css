@@ -36,6 +36,10 @@ button, select {
   margin-top: 4rem;
 }
 
+.form-select {
+  line-height: 1.7 !important;
+}
+
 .btn.btn-outline-success.active.focus,
 .btn.btn-outline-success.active:focus,
 .btn.btn-outline-success.active:hover,
