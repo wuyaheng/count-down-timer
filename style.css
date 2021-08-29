@@ -5,7 +5,7 @@ body {
   }
 
 html { 
-    background: url(https://cdn.glitch.com/0dec22c8-18a3-4302-b857-8444ec36e6ff%2FForest_Image.jpeg?v=1630194513465) no-repeat center center fixed; 
+    background: url(./assets/Forest_Image.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,8 +43,8 @@ button, select {
 .btn.btn-outline-success:active:focus,
 .btn.btn-outline-success:active:hover {
   color: #fff;
-  background-color: rgba(8, 212, 69, 0.3) !important;
-  border-color: rgba(8, 212, 69, 0.3) !important;
+  background-color: rgba(8, 212, 69, 0.4) !important;
+  border-color: rgba(8, 212, 69, 0.4) !important;
   outline: none;
   box-shadow: none;
 }
@@ -52,23 +52,23 @@ button, select {
 .btn.btn-outline-success.focus,
 .btn.btn-outline-success:focus {
   color: #fff;
-  background-color: rgba(8, 212, 69, 0.3) !important;
-  border-color: rgba(8, 212, 69, 0.3) !important;
+  background-color: rgba(8, 212, 69, 0.4) !important;
+  border-color: rgba(8, 212, 69, 0.4) !important;
   outline: none;
   box-shadow: none;
 }
 .btn.btn-outline-success:hover {
   color: #fff;
-  background-color: rgba(8, 212, 69, 0.3) !important;
-  border-color: rgba(8, 212, 69, 0.3) !important;
+  background-color: rgba(8, 212, 69, 0.4) !important;
+  border-color: rgba(8, 212, 69, 0.4) !important;
   outline: none;
   box-shadow: none;
 }
 .btn.btn-outline-success.active,
 .btn.btn-outline-success:active {
   color: #fff;
-  background-color: rgba(8, 212, 69, 0.3) !important;
-  border-color: rgba(8, 212, 69, 0.3) !important;
+  background-color: rgba(8, 212, 69, 0.4) !important;
+  border-color: rgba(8, 212, 69, 0.4) !important;
   outline: none;
 }
 
