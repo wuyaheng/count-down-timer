@@ -29,7 +29,7 @@ button, select {
 #stopWatch {
   font: sans-serif;
   color: #fff;
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 #timeSelect {
@@ -112,3 +112,8 @@ button, select {
   outline: none;
 }
 
+@media only screen and (max-width: 768px) {
+  #stopWatch {
+    font-size: 4rem; 
+  }
+}
