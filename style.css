@@ -35,3 +35,76 @@ button, select {
 #timeSelect {
   margin-top: 4rem;
 }
+
+.btn.btn-outline-success.active.focus,
+.btn.btn-outline-success.active:focus,
+.btn.btn-outline-success.active:hover,
+.btn.btn-outline-success:active.focus,
+.btn.btn-outline-success:active:focus,
+.btn.btn-outline-success:active:hover {
+  color: #fff;
+  background-color: rgba(8, 212, 69, 0.3) !important;
+  border-color: rgba(8, 212, 69, 0.3) !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.btn-outline-success.focus,
+.btn.btn-outline-success:focus {
+  color: #fff;
+  background-color: rgba(8, 212, 69, 0.3) !important;
+  border-color: rgba(8, 212, 69, 0.3) !important;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-outline-success:hover {
+  color: #fff;
+  background-color: rgba(8, 212, 69, 0.3) !important;
+  border-color: rgba(8, 212, 69, 0.3) !important;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-outline-success.active,
+.btn.btn-outline-success:active {
+  color: #fff;
+  background-color: rgba(8, 212, 69, 0.3) !important;
+  border-color: rgba(8, 212, 69, 0.3) !important;
+  outline: none;
+}
+
+.btn.btn-outline-warning.active.focus,
+.btn.btn-outline-warning.active:focus,
+.btn.btn-outline-warning.active:hover,
+.btn.btn-outline-warning:active.focus,
+.btn.btn-outline-warning:active:focus,
+.btn.btn-outline-warning:active:hover {
+  color: #fff;
+  background-color: rgba(247, 234, 51, 0.4) !important;
+  border-color: rgba(247, 234, 51, 0.4) !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.btn-outline-warning.focus,
+.btn.btn-outline-warning:focus {
+  color: #fff;
+  background-color: rgba(247, 234, 51, 0.4) !important;
+  border-color: rgba(247, 234, 51, 0.4) !important;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-outline-warning:hover {
+  color: #fff;
+  background-color: rgba(247, 234, 51, 0.4) !important;
+  border-color: rgba(247, 234, 51, 0.4) !important;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-outline-warning.active,
+.btn.btn-outline-warning:active {
+  color: #fff;
+  background-color: rgba(247, 234, 51, 0.4) !important;
+  border-color: rgba(247, 234, 51, 0.4) !important;
+  outline: none;
+}
+
