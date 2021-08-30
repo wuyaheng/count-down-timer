@@ -117,3 +117,7 @@ button, select {
     font-size: 4rem; 
   }
 }
+
+#minute {
+  color: #fff;
+}
