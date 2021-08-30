@@ -50,6 +50,8 @@ function startTimer() {
       counter--;
       if (counter <= 0) {
         stopWatch.textContent = "Time's Up!";
+        var audio = new Audio('assets/countdown-bleeps.mp3');
+        audio.play();
         clearInterval(interval)
         interval=null;
       } else {
