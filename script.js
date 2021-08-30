@@ -4,8 +4,8 @@ var stopWatch = document.getElementById("stopWatch");
 var timeSelect = document.getElementById("timeSelect");
 var circle = document.getElementById("circle");
 
-var counter = 5;
-var startTime = 5;
+var counter = 15;
+var startTime = 15;
 var interval = null;
 var isPaused = false;
 
